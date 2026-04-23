@@ -1,7 +1,7 @@
 # Terraform patch generation failed for aws_subnet.subnet-01b42d8b272a7fb7a
 # Error: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
 * Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash
-Please retry in 1.615125835s. [links {
+Please retry in 54.584808038s. [links {
   description: "Learn more about Gemini API quotas"
   url: "https://ai.google.dev/gemini-api/docs/rate-limits"
 }
@@ -19,6 +19,6 @@ Please retry in 1.615125835s. [links {
   quota_value: 20
 }
 , retry_delay {
-  seconds: 1
+  seconds: 54
 }
 ]
